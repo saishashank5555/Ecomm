@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: lightpink; */
+    background-image: linear-gradient(150deg, rgb(248, 178, 225), rgb(243, 57, 141));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#mainContainer {
+    width: 45vw;
+    height: auto;
+    /* background-color: red */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#regForm {
+    width: 40vw;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#heading {
+    width: 100%;
+    height: 3vw;
+    background-image: linear-gradient(75deg, red, black);
+    /* background-image: linear-gradient(150deg, rgb(248, 178, 225), rgb(243, 57, 141)); */
+
+    background-size: 100%;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.5vw;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.inputTab {
+    height: 4vw;
+    width: 30vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 0.1vw solid black;
+    color: black;
+    letter-spacing: 0.3vw;
+    text-align: center;
+    font-size: 2vw;
+}
+.inputTab::placeholder{
+    font-size: 1.3vw;
+    color:black;
+    
+  }
+
+#Terms 
+{
+    width: 30vw;
+    height: 3vw;
+    /* background-color:lime; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    column-gap: 0.9vw;
+
+}
+#accept
+{
+    height: 1.4vw;
+    width: 1.4vw;
+    cursor: pointer;
+
+}
+.termsTxt
+{
+    font-size: 1.5vw;
+}
+#loginAccount
+{
+    height: 3vw;
+    width: 30vw; 
+    border: none;
+    outline: none;
+    /* background-color: lime; */
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 2vw;
+    cursor: pointer;
+    background-image: linear-gradient(150deg, rgb(248, 178, 225), rgb(243, 57, 141));
+
+}
